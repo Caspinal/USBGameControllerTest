@@ -11,6 +11,8 @@
 		BF53791A24BF26E000EC55CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF53791924BF26E000EC55CB /* Assets.xcassets */; };
 		BF53791D24BF26E000EC55CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF53791B24BF26E000EC55CB /* MainMenu.xib */; };
 		BF53792024BF26E000EC55CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53791F24BF26E000EC55CB /* main.m */; };
+		BF7638FB24BF7E8E00D0A760 /* Connect.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BF7638FA24BF7E8E00D0A760 /* Connect.m4a */; };
+		BF7638FF24BF820700D0A760 /* Disconnect.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BF7638FE24BF81EC00D0A760 /* Disconnect.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BF53791E24BF26E000EC55CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF53791F24BF26E000EC55CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF53792124BF26E000EC55CB /* GameControllerTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameControllerTest.entitlements; sourceTree = "<group>"; };
+		BF7638FA24BF7E8E00D0A760 /* Connect.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Connect.m4a; sourceTree = "<group>"; };
+		BF7638FE24BF81EC00D0A760 /* Disconnect.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Disconnect.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		BF53790A24BF26DE00EC55CB = {
 			isa = PBXGroup;
 			children = (
+				BF7638FA24BF7E8E00D0A760 /* Connect.m4a */,
+				BF7638FE24BF81EC00D0A760 /* Disconnect.m4a */,
 				BF53791524BF26DE00EC55CB /* GameControllerTest */,
 				BF53791424BF26DE00EC55CB /* Products */,
 			);
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7638FF24BF820700D0A760 /* Disconnect.m4a in Resources */,
+				BF7638FB24BF7E8E00D0A760 /* Connect.m4a in Resources */,
 				BF53791A24BF26E000EC55CB /* Assets.xcassets in Resources */,
 				BF53791D24BF26E000EC55CB /* MainMenu.xib in Resources */,
 			);

@@ -10,6 +10,9 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property NSMutableDictionary *buttonMappings;
+@property NSMutableDictionary *dPadMappings;
+@property CGPoint stickPos;
 
 @end
 
